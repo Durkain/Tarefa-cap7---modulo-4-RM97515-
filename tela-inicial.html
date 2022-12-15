@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinaWeb</title>
+    <link rel="icon" type="image/x-icon" href="img/Logo-site.png">
+    <!--fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!--estilos css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles-inicial.css">
+    <!--javascript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4743f04916.js" crossorigin="anonymous"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="nav-container"></div>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a href="#" class="navbar-brand">
+                <img id="logo" src="img/Logo-site.png" alt="FinaWeb"> FinaWeb
+            </a>
+            <p class="navbar-brand2">Money Control</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu">Home</a>
+                    <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                    <a class="nav-item nav-link" id="about-menu">Finaweb</a>
+                    <a class="nav-item nav-link" id="contact-menu">Contatos</a>
+                    <a class="nav-item nav-link" id="cadastro-menu">Cadastrar</a>
+                    <a class="nav-item nav-link" id="login-menu">Login</a>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="finaweb">
+            <div class="container">
+                <div class="text-title">
+                    <h2 class="welcome">Bem-vindo ao FinaWeb</h2>
+                    <h3 class="sub-title">o seu site de finanças online</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/entrepreneur-working-with-bills.jpg" class="d-block w-100" alt="Projetos de e-commerce">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Quer organizar seus gastos?</h2>
+                            <p><span>Alcance suas metas no controle de gastos com as nossas ferramentas.</span></p>
+                            <a href="#" class="main-btn">Organizar gastos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/artem-beliaikin-Dz-Iij3CrpM-unsplash.jpg" class="d-block w-100" alt="Engenharia de software">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Quer fazer planos para suas finanças?</h2>
+                            <p><span>Trace seus objetivos conosco e os acompanhe de perto.</span></p>
+                            <a href="#" class="main-btn">Planeje conosco</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/disappointed-forgetful-young-woman-tired-of-cramming-for-exam-keeps-hand-on-head-and-looks-stressed.jpg" class="d-block w-100" alt="Manutenção em software">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Quer ter controle sobre suas faturas?</h2>
+                            <p><span>Monitore suas faturas para não ser pego desprevinido.</span></p>
+                            <a href="#" class="main-btn">Minhas faturas</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Voltar</span>
+                </a>
+                <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Proximo</span>
+                </a>
+            </div>
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title ">Sobre a FinaWeb</h3>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="img-fluid" src="img/close-up-people-working-office.jpg" alt="FinaWeb">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="about-title">Um App Web que pensa no futuro</h3>
+                            <p>Exemple text FinaWeb foi criado para teajudar a gerenciar sua vida finaceira.</p>
+                            <p>Exemple text FinaWeb foi criado para teajudar a gerenciar sua vida finaceira.</p>
+                            <p>Exemple text FinaWeb foi criado para teajudar a gerenciar sua vida finaceira.</p>
+                            <p>Exemple text FinaWeb foi criado para teajudar a gerenciar sua vida finaceira.</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i>Exemplo topico 1</li>
+                                <li><i class="fas fa-check"></i>Exemplo topico 2</li>
+                                <li><i class="fas fa-check"></i>Exemplo topico 3</li>
+                                <li><i class="fas fa-check"></i>Exemplo topico 4</li>
+                                <li><i class="fas fa-check"></i>Exemplo topico 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--rodapé-->
+    <footer>
+        <div class="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Contatos</h3>
+                    </div>
+                    <div class="col-md-3 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title"> Ligue para: </span>(11) 96371-4893</p>
+                        <p><span class="contact-title"> Horários: </span>8:00 - 19:00</p>
+                    </div>
+                    <div class="col-md-3 contact-box" id="email">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title"> Envie um e-mail: </span>carlos_eduardopr123@hotmail.com</p>
+                    </div>
+                    <div class="col-md-6 contact-box" id="contact-form">
+                        <p class="msg-box">Deixa sua mensagem ou feedeback, é muito importante para nós.</p>
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" name="message" rows="3" placeholder="Sua mensagem"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--copy-->
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="" target="_blank">FinaWeb</a> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

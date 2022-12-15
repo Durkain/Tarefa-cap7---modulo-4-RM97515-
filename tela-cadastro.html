@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinaWeb</title>
+    <link rel="icon" type="image/x-icon" href="img/Logo-site.png">
+    <!--fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!--estilos css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/form-cadastro.css">
+    <!--javascript-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4743f04916.js" crossorigin="anonymous"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container"></div>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a href="#" class="navbar-brand">
+                <img id="logo" src="img/Logo-site.png" alt="FinaWeb"> FinaWeb
+            </a>
+            <p class="navbar-brand2">Money Control</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                    <a class="nav-item nav-link" id="cadastro-menu">
+                        <i class="bi bi-ui-checks-grid"></i> Cadastrar
+                    </a>
+                    <a class="nav-item nav-link" id="login-menu">
+                        <i class="fas fa-user"></i> Login
+                    </a>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div id="new-form">
+            <div class="container">
+                <div class="col-md-12">
+                    <p class="msg-box">Cadastro</p>
+                    <form action="">
+                        <label class="pre-form">Nome Completo</label>
+                        <input type="name" class="form-control" placeholder="Digite seu nome completo" name="nomeCompleto" required>
+                        <label class="pre-form">Data de nascimento</label>
+                        <input type="date" class="form-control" placeholder="Data de nascimento" name="dataNascimento"required>
+                        <label for="sexo" >Sexo:  
+                            <input type="radio" name="sexo" value="Masculino">Masculino
+                            <input type="radio" name="sexo" value="Feminino">Feminino
+                            <input type="radio" name="sexo" value="Outros">Outros
+                        </label><br>
+                        <label class="pre-form">E-mail</label>
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail" name="email" required>
+                        <label class="pre-form">Confirme seu email</label>
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail novamente" name="confirm-email" required>
+                        <label class="pre-form">Senha</label>
+                        <input type="password" class="form-control" placeholder="Digite uma senha" name="new-password" required>
+                        <label class="pre-form">Confirme sua senha</label>
+                        <input type="password" class="form-control" placeholder="Digite sua senha novamente" name="confirm-password" required>
+                        <div class="foot">
+                            <input type="checkbox" name="termos" value="Termos" required> 
+                            <label for="terms">Eu aceito <a href="#" class="terms">Termos e politicas </a> do site.</label> 
+                            <label for="login-prev" class="login-prev">Já tem uma conta? Efetue o <a href="#" class="terms">Login</a></label>
+                        </div>
+                        <input id="button" type="submit" class="main-btn form-control" value="Cadastrar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="" target="_blank">FinaWeb</a> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>

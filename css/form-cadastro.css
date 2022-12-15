@@ -1,0 +1,258 @@
+/* Gerais*/
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color:black;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color: black;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 5vh;
+    padding: 0;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: red;
+} 
+
+.navbar-brand2 {
+    margin-top: 25px;
+    font-size: 3vh;
+    color:green;
+}
+
+#navbar_links a {
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem, .8rem;
+}
+
+/* formulario cadastro */
+
+#new-form {
+    margin-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+}
+
+#new-form .msg-box {
+    font-size: 60px;
+    text-align: center;
+}
+
+#new-form input[type="name"], #new-form input[type="email"], #new-form input[type="password"], #new-form input[type="date"] {
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+
+#new-form #button {
+    margin-left: 275px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: .5s;
+    margin-top: 30px;
+}
+
+#new-form #button:hover {
+    text-decoration:none;
+    color: black;
+    background-color: rgba(196, 236, 248, 0.555);
+    border-color: black;
+}
+
+#new-form .pre-form {
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#new-form input[type="radio"] {
+    text-align: center;
+    font-size: 22px;
+    height: 15px;
+    margin:10px 10px 10px 10px;
+    margin-bottom: 32px;
+}
+
+.terms {
+    font-weight:bold;
+}
+
+.foot .login-prev {
+    margin-left: 190px;
+    margin-top: 0;
+}
+
+.foot {
+    margin-top: -10px;
+}
+
+
+/* Copy */
+
+#copy-area {
+    background-color: black;
+}
+
+#copy-area .container {
+    padding: 10px;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+    color: white;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color:red
+}
+
+/* resposivo */
+
+@media(max-width: 1024px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* home */
+    .navbar-brand2 {
+        margin-right: 150px;
+    }
+
+    /* formulario */
+    #new-form {
+        margin-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+    }
+
+    .foot .login-prev {
+        margin-left: 265px;
+        margin-top: 0;
+    }
+
+    #new-form #button {
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* home */
+    .navbar-brand2 {
+        margin-right: 150px;
+    }
+
+    /* formulario */
+    #new-form {
+        margin-left: 80px;
+        padding-right: 80px;
+        padding-top: 100px;
+    }
+
+    .foot .login-prev {
+        margin-left: 45px;
+        margin-top: 0;
+    }
+
+    #new-form #button {
+        margin-top: 40px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 425px) {
+
+    /* Barra de navegação */
+    #logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-brand2 {
+        font-size: 15px;
+        margin-right: 80px;
+    }
+
+    /* Home */
+    #finaweb {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: -90px;
+        background-color: lightskyblue;
+    }
+
+    /* formulario */
+    #new-form {
+        margin-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+    }
+
+    .foot .login-prev {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #new-form #button {
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+}
