@@ -1,0 +1,55 @@
+Desafio:
+Fazer parte de um projeto para desenvolver um sistema que ajude o usuário a controlar suas fontes de receita, gastos, dividas e investimentos.
+Além de planejar metas e o caminho para atingir os objetivos financeiros, possibilitando ao usuário melhorar seu conforto e sua qualidade de vida.
+
+METAS DO PROJETO: 
+
+1 - Ideias Inicias: 
+1.1 - Nome do Projeto - Fintech Revolution #
+1.2 - Nome do AppWeb - FinaWEB # (finaweb.net)
+1.3 - Equipe - 0 %
+1.4 - Definição de papeis - 0 %
+
+2 - Planejamento: 
+2.1 - Desenvolver um App versão Web para auxiliar os usuários em sua vida finaceira.
+2.2 - Incluir funções inovadoras ao projeto, como visualização total e avisos de faturas em aberto (Banco, Conta de telefonia, Boletos de compras, Entreterimento, Plano de Saúde, Mensalidades escolares, Contas de agua e luz, Conta de internet, entre outros).
+2.3 - Planejar e montar um layout visual do produto.
+2.4 - Estudar as linguas de progamação e desenvolver as hablidades necessarias para realização do projeto.
+2.5 - Revisar todo projeto, pedir ajudar de profissionais da aréa, finalizar.
+2.6 - Pesquisar sobre hospedagem e colocar tudo para rodar.
+
+3 - Historias do produto:
+3.1 - Usuário que acessar o site tem que realizar o cadastro.
+3.1.1 -No cadastro tem que conter os dados pessoais, Nome completo, Data de nascimento, RG e CPF, Nome da mãe e do pai, Email, Telefone e Endereço.
+3.1.2 - O usuário terá acesso aos termos de uso antes de terminar o cadastro, e esolherá se concluira o cadastro ou não.
+3.1.3 - Após o término do cadastro o usuário confirma o Email e o telefone, por meio de mensagens de confirmação.
+3.2 - Usuário realiza o login e tem acesso a primeira interface do App.
+3.2.1 - Primeira interface: abas de usualidade como Perfil, Receita, Despesas, Planejamento de finanças, Visualização de boletos e faturas em aberto, historico de faturas e boletos pagos e investimentos.
+3.3 - Receita:
+3.3.1 - Tela de interação onde o usuário registra no sistema todos ganhos fixos e variaveis, mensais, anuais ou casuais.
+3.3.2 - A partir desses cadastros os usuários vão ter acesso ao restante das funcionalidades.
+3.3.3 - Funcioanalidades como, consular receita, receita futura, media de receita em certo periodo, graficos de receita.
+3.4 - Despesas:
+3.4.1 - Tela de interção onde o usuário registra todas suas despesas fixas e variaveis, mensais, anuais ou casuais.
+3.4.2 - A partir  desses cadastros os usuários vão ter o acesso ao restantes das funcionalidades.
+3.4.3 - Funcioanalidades como, consular despesas, despesas futuras, media de despesa em certo periodo, graficos de despesas.
+3.4.4 - O usuário conseguira fazer um comparativo entre sua receita atual e futura e suas despesas atuais e futuras, por meio de contas e gráficos interativos.
+3.5 - Planejamento de finanças:
+3.5.1 - Tela de interção onde o usuário consegue fazer projeções e planejamento sobre suas finanças
+3.5.2 - Planejamentos como viagens, reformas de moradia, cursos e faculdades, adiquirir bens automotivos entre outra funcionalidades.
+3.5.3 - Projeções e reservas de bens.
+3.6 - 
+
+4 - BackLog:
+
+5 - Definição de cronograma por realese:
+
+6 - Número de sprints e tempo por sprint:
+
+7 - Revisão e Restrospectiva:
+
+8 - Repetição das etapas 4, 5, 6 e 7.
+
+9 -  Historico de Resultados anteriores (resumo das sprints):
+
+
